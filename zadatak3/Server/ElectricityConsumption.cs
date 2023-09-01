@@ -11,7 +11,7 @@ namespace Server
     {
         public Tuple<List<Load>, Audit> GetValues(DateTime dateTime)
         {
-            Console.WriteLine(dateTime + "usepo sam mrrrrrrale");
+            Console.WriteLine(dateTime);
 
             Console.ReadKey();
 
