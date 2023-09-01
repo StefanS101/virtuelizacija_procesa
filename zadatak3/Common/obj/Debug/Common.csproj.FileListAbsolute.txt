@@ -1,6 +1,0 @@
-C:\Users\Stefan\Desktop\virtuelizacija_procesa_projekat\zadatak3\Common\bin\Debug\Common.dll
-C:\Users\Stefan\Desktop\virtuelizacija_procesa_projekat\zadatak3\Common\bin\Debug\Common.pdb
-C:\Users\Stefan\Desktop\virtuelizacija_procesa_projekat\zadatak3\Common\obj\Debug\Common.csproj.AssemblyReference.cache
-C:\Users\Stefan\Desktop\virtuelizacija_procesa_projekat\zadatak3\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
-C:\Users\Stefan\Desktop\virtuelizacija_procesa_projekat\zadatak3\Common\obj\Debug\Common.dll
-C:\Users\Stefan\Desktop\virtuelizacija_procesa_projekat\zadatak3\Common\obj\Debug\Common.pdb
