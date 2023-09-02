@@ -14,7 +14,7 @@ namespace Server
         static void Main(string[] args)
         {
             InMemoryData.database = new Dictionary<int, Load>();
-            InMemoryData.database.Add(1, new Load(DateTime.Now, 155, 152));
+            //InMemoryData.database.Add(1, new Load(DateTime.Now, 155, 152));
 
 
             using (ServiceHost host = new ServiceHost(typeof(Server.ElectricityConsumption)))

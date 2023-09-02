@@ -8,3 +8,4 @@ C:\Users\Stefan\Desktop\virtuelizacija_procesa_projekat\zadatak3\Client\obj\Debu
 C:\Users\Stefan\Desktop\virtuelizacija_procesa_projekat\zadatak3\Client\bin\Debug\Common.dll
 C:\Users\Stefan\Desktop\virtuelizacija_procesa_projekat\zadatak3\Client\bin\Debug\Common.pdb
 C:\Users\Stefan\Desktop\virtuelizacija_procesa_projekat\zadatak3\Client\obj\Debug\Client.csproj.CopyComplete
+C:\Users\Stefan\Desktop\virtuelizacija_procesa_projekat\zadatak3\Client\obj\Debug\Client.csproj.SuggestedBindingRedirects.cache

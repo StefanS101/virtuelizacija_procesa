@@ -35,5 +35,10 @@ namespace Common
         public MessageTypes MessageType { get => messageType; set => messageType = value; }
         [DataMember]
         public string Message { get => message; set => message = value; }
+
+        public override string ToString()
+        {
+            return $"{id.ToString("D5")} {timeStamp} {messageType} {message}";
+        }
     }
 }

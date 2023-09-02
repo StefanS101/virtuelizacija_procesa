@@ -17,6 +17,11 @@ namespace Common
         private double measuredValue;
         public static int count = 0;
 
+        public Load() {
+            ++count;
+            id = count;
+        }
+
         public Load(DateTime timeStamp, double forecastValue, double measuredValue)
         {
             ++count;
@@ -34,5 +39,10 @@ namespace Common
         public double ForecastValue { get => forecastValue; set => forecastValue = value; }
         [DataMember]
         public double MeasuredValue { get => measuredValue; set => measuredValue = value; }
+
+        public override string ToString()
+        {
+            return $"{id.ToString("D5")} {timeStamp} {forecastValue} {measuredValue}";
+        }
     }
 }
