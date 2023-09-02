@@ -1,0 +1,9 @@
+C:\Users\Stefan\Desktop\virtuelizacija_procesa_projekat\zadatak3\DataBaseLibrary\bin\Debug\DataBaseLibrary.dll
+C:\Users\Stefan\Desktop\virtuelizacija_procesa_projekat\zadatak3\DataBaseLibrary\bin\Debug\DataBaseLibrary.pdb
+C:\Users\Stefan\Desktop\virtuelizacija_procesa_projekat\zadatak3\DataBaseLibrary\bin\Debug\Common.dll
+C:\Users\Stefan\Desktop\virtuelizacija_procesa_projekat\zadatak3\DataBaseLibrary\bin\Debug\Common.pdb
+C:\Users\Stefan\Desktop\virtuelizacija_procesa_projekat\zadatak3\DataBaseLibrary\obj\Debug\DataBaseLibrary.csproj.AssemblyReference.cache
+C:\Users\Stefan\Desktop\virtuelizacija_procesa_projekat\zadatak3\DataBaseLibrary\obj\Debug\DataBaseLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Stefan\Desktop\virtuelizacija_procesa_projekat\zadatak3\DataBaseLibrary\obj\Debug\DataBaseLibrary.csproj.CopyComplete
+C:\Users\Stefan\Desktop\virtuelizacija_procesa_projekat\zadatak3\DataBaseLibrary\obj\Debug\DataBaseLibrary.dll
+C:\Users\Stefan\Desktop\virtuelizacija_procesa_projekat\zadatak3\DataBaseLibrary\obj\Debug\DataBaseLibrary.pdb

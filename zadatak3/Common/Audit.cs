@@ -12,26 +12,33 @@ namespace Common
     [DataContract]
     public class Audit
     {
-        private string id;
+        private int id;
         private DateTime timeStamp;
         private MessageTypes messageType;
         private string message;
+        public static int count = 0;
 
-        public Audit(string id, DateTime timeStamp, MessageTypes messageType, string message)
+        public Audit(DateTime timeStamp, MessageTypes messageType, string message)
         {
-            this.Id = id;
+            count++;
+            this.Id = count;
             this.TimeStamp = timeStamp;
             this.MessageType = messageType;
             this.Message = message;
         }
 
         [DataMember]
-        public string Id { get => id; set => id = value; }
+        public int Id { get => id; set => id = value; }
         [DataMember]
         public DateTime TimeStamp { get => timeStamp; set => timeStamp = value; }
         [DataMember]
         public MessageTypes MessageType { get => messageType; set => messageType = value; }
         [DataMember]
         public string Message { get => message; set => message = value; }
+
+        public override string ToString()
+        {
+            return $"{id.ToString("D5")} {timeStamp} {messageType} {message}";
+        }
     }
 }
