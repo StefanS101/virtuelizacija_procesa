@@ -11,21 +11,23 @@ namespace Common
     [DataContract]
     public class Load
     {
-        private string id;
+        private int id;
         private DateTime timeStamp;
         private double forecastValue;
         private double measuredValue;
+        public static int count = 0;
 
-        public Load(string id, DateTime timeStamp, double forecastValue, double measuredValue)
+        public Load(DateTime timeStamp, double forecastValue, double measuredValue)
         {
-            this.Id = id;
+            ++count;
+            this.Id = count;
             this.TimeStamp = timeStamp;
             this.ForecastValue = forecastValue;
             this.MeasuredValue = measuredValue;
         }
 
         [DataMember]
-        public string Id { get => id; set => id = value; }
+        public int Id { get => id; set => id = value; }
         [DataMember]
         public DateTime TimeStamp { get => timeStamp; set => timeStamp = value; }
         [DataMember]

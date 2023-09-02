@@ -30,7 +30,11 @@ namespace Client
                 return;
             }
 
-            channel.GetValues(DateTime.Now);
+            Tuple<List<Load>, Audit> results = channel.GetValues(DateTime.Now);
+
+            foreach(var result in results.Item1) {
+                Console.WriteLine(result + "\n");
+            }
 
             Console.WriteLine("Closing");
             Console.ReadKey();

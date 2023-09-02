@@ -8,3 +8,5 @@ C:\Users\Stefan\Desktop\virtuelizacija_procesa_projekat\zadatak3\Server\obj\Debu
 C:\Users\Stefan\Desktop\virtuelizacija_procesa_projekat\zadatak3\Server\obj\Debug\Server.csproj.CopyComplete
 C:\Users\Stefan\Desktop\virtuelizacija_procesa_projekat\zadatak3\Server\obj\Debug\Server.exe
 C:\Users\Stefan\Desktop\virtuelizacija_procesa_projekat\zadatak3\Server\obj\Debug\Server.pdb
+C:\Users\Stefan\Desktop\virtuelizacija_procesa_projekat\zadatak3\Server\bin\Debug\DataBaseLibrary.dll
+C:\Users\Stefan\Desktop\virtuelizacija_procesa_projekat\zadatak3\Server\bin\Debug\DataBaseLibrary.pdb
