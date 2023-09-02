@@ -15,7 +15,7 @@ namespace Server
         ///
 
 
-        static List< Load> ReadFromXML(string xmlFilePath)
+        static List<Load> ReadFromXML(string xmlFilePath, DateTime date)
         {
             List<Load> list = new List<Load>();
             Load temp = new Load();
@@ -29,7 +29,7 @@ namespace Server
             {
                 using (XmlReader reader = XmlReader.Create(xmlFilePath, settings))
                 {
-                    
+
                     while (reader.Read()) // Continue reading until the end of the file
                     {
 
@@ -55,7 +55,10 @@ namespace Server
                         else if (reader.NodeType == XmlNodeType.EndElement && reader.Name == "row")
                         {
                             // Process the four fields here for each row
-                            list.Add(temp);
+                            if (temp.TimeStamp.Date == date)
+                            {
+                                list.Add(temp);
+                            }
                             temp = new Load();
                         }
                     }
@@ -95,8 +98,10 @@ namespace Server
             else
             {
                 List<Load> xmlElements = new List<Load>();
-                xmlElements = ReadFromXML("C:\\Users\\Stefan\\Desktop\\virtuelizacija_procesa_projekat\\zadatak3\\DataBaseLibrary\\TBL_LOAD.xml");
+                xmlElements = ReadFromXML("C:\\Users\\Stefan\\Desktop\\virtuelizacija_procesa_projekat\\zadatak3\\DataBaseLibrary\\TBL_LOAD.xml", dateTime);
                 Audit audit = new Audit(dateTime, MessageTypes.SUCCESS, $"Results for {dateTime.Date}");
+
+
 
 
                 if (xmlElements.Count > 0)
@@ -106,7 +111,7 @@ namespace Server
                 else
                 {
                     Audit a = new Audit(dateTime, MessageTypes.ERROR, $"There is no data for day: {dateTime.Date}");
-                    List<Load> empty= new List<Load>();
+                    List<Load> empty = new List<Load>();
                     return new Tuple<List<Load>, Audit>(empty, a);
                 }
 
@@ -128,6 +133,6 @@ namespace Server
         }
     }
 
-     
+
 }
 
